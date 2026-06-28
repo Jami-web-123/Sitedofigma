@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.cabecalho {
+    background-color: rgb(220, 154, 169); 
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 150%;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+.caixa-cabecalho {
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.caixa-primeira {
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.subtitulo {
+    text-align: center;
+    font-size: 190%;
+}
+
+
+
+
+.principal {
+    background-color: rgb(255, 192, 203); /* Rosa Claro */
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+.link-caixa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.card-main {
+    width: 300px;
+    min-height: 480px; /* todos terão a mesma altura */
+    border: 1px solid black;
+    margin: 8px;
+    background-color: rgb(255, 240, 245);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-main img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+.card-main h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-main p {
+    text-align: center;
+    padding: 0 10px;
+}
+
+body {
+    background-color: rgb(255, 230, 235); 
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card-btn {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(215, 45, 85);
+    height: 40px;
+    color: white;
+    font-weight: 300;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-botao-final {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px 40px; 
+}
+
+.btn-ver-carrinho {
+    background-color: rgb(215, 45, 85);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px; 
+    transition: 0.3s;
+    border: 1px solid black; 
+}
+
+.btn-ver-carrinho:hover {
+    background-color: #a31d3d;
+    transform: translateY(-2px);
+}
+
+@media (max-width:900px) {
+    .card-container {
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
